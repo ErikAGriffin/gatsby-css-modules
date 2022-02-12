@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as styles from '../styles/index.module.css';
 
 // styles
 const pageStyles = {
@@ -128,7 +129,7 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main style={pageStyles} className={styles.TestStyle}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
         Congratulations

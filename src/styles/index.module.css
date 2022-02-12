@@ -1,0 +1,8 @@
+.TestStyle {
+    color: red !important;
+    background: red;
+}
+
+.another-style {
+    color: blue;
+}
